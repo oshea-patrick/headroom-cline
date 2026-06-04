@@ -48,7 +48,7 @@ uncompressed, so tool calls never hard-fail.
 ## Install
 
 ```bash
-cline plugin install https://github.com/<owner>/headroom-cline-plugin.git
+cline plugin install https://github.com/oshea-patrick/headroom-cline.git
 cline config   # confirm it appears under the plugin tab
 ```
 

@@ -352,7 +352,7 @@ export function createHeadroomPlugin(config: HeadroomPluginConfig = {}): AgentPl
  * (`HEADROOM_BASE_URL`, `HEADROOM_API_KEY`, `HEADROOM_MODEL`). This is what the
  * Cline host loads when installing the plugin via the CLI.
  */
-const plugin: AgentPluginLike = createHeadroomPlugin()
+const plugin: AgentPluginLike = createHeadroomPlugin({ autoCompact: true })
 
 export default plugin
 export { plugin }
